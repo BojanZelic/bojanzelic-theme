@@ -1,0 +1,33 @@
+{
+  "name": "g",
+  "version": "0.0.1",
+  "homepage": "git@github.com:BojanZelic/bojanzelic-theme",
+  "authors": [
+    "Alexander Synaptic <bnzelic@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "wordpress",
+    "gulp",
+    "bower",
+    "sass"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".sass-cache",
+    "build",
+    "package.json"
+  ],
+  "dependencies": {
+    "meyer-reset": "*",
+    "normalize.css": "^3.0.1"
+  }
+}

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "git@github.com:BojanZelic/bojanzelic-theme",
   "authors": [
-    "Alexander Synaptic <bnzelic@gmail.com>"
+    "Bojan Zelic <bnzelic@gmail.com>"
   ],
   "moduleType": [
     "amd"
@@ -28,6 +28,8 @@
   ],
   "dependencies": {
     "meyer-reset": "*",
-    "normalize.css": "^3.0.1"
+    "normalize.css": "^3.0.1",
+    "bootstrap-sass-official": "~3.3.1",
+    "fontawesome": "~4.2.0"
   }
 }

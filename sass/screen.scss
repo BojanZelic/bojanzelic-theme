@@ -6,7 +6,10 @@
 @import "compass/reset";
 @import 'variables';
 
-@import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins';
+@import 'sidebar';
+
+
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
 
 //  // Reset and dependencies
 //@import '../../bower_components/normalize.css';

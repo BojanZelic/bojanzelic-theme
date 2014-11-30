@@ -29,8 +29,10 @@
         </div>
         {% endblock %}
     </header>
-        <section role="main" class="page-content-wrapper content-wrapper">
-            {% if title %}<h1>{{title}}</h1>{% endif %}
+    {% block title %}
+    {% endblock %}
+    <section role="main" class="page-content-wrapper content-wrapper">
+
             <div class="wrapper {{sidebar_class}}">
                 {% block content %}
                     Sorry, no content

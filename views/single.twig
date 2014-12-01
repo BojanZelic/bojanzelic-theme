@@ -1,9 +1,17 @@
 {% extends "base.twig" %}
-
 {% block title %}
-	<div class="main-header-image">
-		<h1 class="article-h1">{{post.title}}</h1>
-	</div>
+	{% if post.thumbnail %}
+		<div class="main-header-image header-single">
+			<img src="{{ post.thumbnail.src }}">
+			<h1 class="article-h1">{{post.title}}</h1>
+		</div>
+
+	{% else %}
+
+		<div class="main-header-image header-default">
+			<h1 class="article-h1">{{post.title}}</h1>
+		</div>
+	{% endif %}
 {% endblock %}
 
 {% block content %}
